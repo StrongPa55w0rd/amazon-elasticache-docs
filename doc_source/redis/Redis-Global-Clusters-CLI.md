@@ -23,14 +23,7 @@ Use the following CLI operations to work with global datastores:
      --primary-replication-group-id sample-repl-group \
      --global-replication-group-description an optional description of the global datastore
   ```
-+  [create\-replication\-group](https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateReplicationGroup.html) – Use this operation to create secondary clusters for a Global Datastore by supplying the name of the Global Datastore to the `--global-replication-group-id` parameter\.
 
-  ```
-  aws elastiche create-replication-group \
-    --replication-group-id secondary replication group name \
-    --replication-group-description “Replication group description" \
-    --global-replication-group-id global datastore name \
-  ```
 + [describe\-global\-replication\-groups](https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_DescribeGlobalReplicationGroups.html)
 
   ```
